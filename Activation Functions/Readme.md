@@ -142,7 +142,5 @@ Activation functions are widely used in:
 
 ---
 
-## 🏁 Conclusion
-
 Activation functions play a critical role in neural networks by enabling them to learn complex data patterns. Choosing the correct activation function significantly impacts the performance and stability of deep learning models.
 
