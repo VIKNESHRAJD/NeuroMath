@@ -1,1 +1,127 @@
-A
+🧠 Activation Functions in Neural Networks
+📌 What is an Activation Function?
+
+An activation function is a mathematical function used in artificial neural networks that determines whether a neuron should be activated or not. It takes the output of a neuron and transforms it into a form that can be used as input for the next layer.
+
+Activation functions introduce non-linearity into neural networks, enabling them to learn complex patterns and relationships in data.
+
+🎯 Why Activation Functions Are Important
+
+Without activation functions, a neural network behaves like a simple linear model regardless of how many layers it has. Activation functions allow neural networks to:
+
+Learn complex and non-linear relationships
+
+Improve model performance
+
+Enable deep learning architectures
+
+Control output range of neurons
+
+Help neural networks approximate real-world data patterns
+
+⚙️ How Activation Functions Work
+
+In a neural network, each neuron performs the following steps:
+
+Receives input values
+
+Multiplies inputs by weights
+
+Adds a bias value
+
+Passes the result through an activation function
+
+Sends output to the next layer
+
+Mathematically:
+
+z = (weights × input) + bias
+output = Activation(z)
+
+📊 Common Activation Functions
+🔵 Sigmoid
+
+Output range: (0, 1)
+
+Used in binary classification output layers
+
+Smooth S-shaped curve
+
+Can suffer from vanishing gradient problem
+
+🟢 Tanh (Hyperbolic Tangent)
+
+Output range: (-1, 1)
+
+Zero-centered output
+
+Strong gradients near zero
+
+Still affected by vanishing gradients
+
+🔴 ReLU (Rectified Linear Unit)
+
+Output: 0 for negative values, linear for positive values
+
+Most widely used activation function
+
+Computationally efficient
+
+Can suffer from dead neuron problem
+
+🟠 Leaky ReLU
+
+Allows small negative values
+
+Fixes dead neuron problem
+
+Improves gradient flow
+
+🟣 Softmax
+
+Converts outputs into probability distribution
+
+Outputs sum to 1
+
+Used in multi-class classification problems
+
+🚀 Advanced Activation Functions
+🔵 ELU (Exponential Linear Unit)
+
+Smooth negative region
+
+Faster convergence than ReLU
+
+Helps reduce dead neurons
+
+🟢 SELU (Scaled ELU)
+
+Self-normalizing activation
+
+Maintains stable mean and variance
+
+Used in deep feedforward networks
+
+🟡 Swish
+
+Smooth and non-monotonic
+
+Often performs better than ReLU
+
+Used in modern deep learning architectures
+
+🟣 GELU (Gaussian Error Linear Unit)
+
+Probabilistic activation
+
+Used in transformer-based models like BERT and GPT
+
+Provides smooth gradient flow
+
+⚫ Linear (Identity Function)
+
+Output equals input
+
+Used in regression output layers
+
+Does not introduce non-linearity
