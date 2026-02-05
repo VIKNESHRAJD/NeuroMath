@@ -1,3 +1,41 @@
+# 🧠 Activation Functions in Neural Networks
+
+## 📌 What is an Activation Function?
+
+An activation function is a mathematical function used in artificial neural networks that determines whether a neuron should be activated or not. It takes the output of a neuron and transforms it before passing it to the next layer.
+
+Activation functions introduce **non-linearity** into neural networks, enabling them to learn complex patterns and relationships in data.
+
+---
+
+## 🎯 Why Activation Functions Are Important
+
+Without activation functions, a neural network behaves like a simple linear model regardless of how many layers it has. Activation functions allow neural networks to:
+
+- Learn complex and non-linear relationships  
+- Improve model performance  
+- Enable deep learning architectures  
+- Control the output range of neurons  
+- Help approximate real-world data patterns  
+
+---
+
+## ⚙️ How Activation Functions Work
+
+Each neuron in a neural network performs the following steps:
+
+1. Receives input values  
+2. Multiplies inputs by weights  
+3. Adds a bias value  
+4. Passes the result through an activation function  
+5. Sends the output to the next layer  
+
+### Mathematical Representation
+
+z = (weights × input) + bias
+output = Activation(z)
+
+
 
 ---
 
